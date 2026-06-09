@@ -1,9 +1,9 @@
 # PDAce and aPDAce for Convex-Concave Saddle-Point Problems with Nonlinear Coupling Term
 
-This repository contains the official MATLAB and Python implementation for the paper: **"A Novel Primal-Dual Algorithm with Convex Combination and Dual Extrapolation for Convex-Concave Saddle-Point Problems under Nonlinear Coupling"**.
+This repository contains the official MATLAB and Python implementation for the paper: **"A New Primal-Dual Algorithm with Convex Combination and Extrapolation for Convex-Concave Saddle-Point Problems with Nonlinear Coupling Term"**.
 
 ## Overview
-This repository provides the code for the **PDAce** (Primal-Dual Algorithm with Convex combination and dual Extrapolation) and its accelerated version **aPDAce**. These algorithms are designed to solve the following convex-concave saddle-point problem with a nonlinear coupling function:
+This repository provides the code for the **PDAce** (Primal-Dual Algorithm with Convex combination and Extrapolation) and its accelerated version **aPDAce**. These algorithms are designed to solve the following convex-concave saddle-point problem with a nonlinear coupling function:
 
 $$ \min_x \max_y L(x,y) = f(x) + h(x) + \langle g(x), y \rangle - H^*(y) $$
 
